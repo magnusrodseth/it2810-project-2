@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select renders correctly 1`] = `
+<div
+  className="form-control w-full max-w-xs"
+>
+  <select
+    className="select select-bordered"
+    onChange={[Function]}
+    value="default"
+  >
+    <option
+      disabled={true}
+      value="default"
+    >
+      Test
+    </option>
+    <option
+      value="value"
+    >
+      label
+    </option>
+  </select>
+</div>
+`;

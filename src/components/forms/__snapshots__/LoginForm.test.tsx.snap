@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginForm renders correctly 1`] = `
+<div>
+  <form
+    className="flex flex-col justify-center rounded-lg rise-on-hover bg-base-300 shadow-md hover:shadow-lg space-y-8 p-6 md:p-10"
+    onSubmit={[Function]}
+  >
+    <div
+      className="flex flex-col justify-center items-start mx-auto space-y-4"
+    >
+      <label
+        className="font-bold"
+        htmlFor="input-url"
+      >
+        GitLab Repository URL
+      </label>
+      <input
+        className="input input-secondary focus:outline-offset-0 input-bordered"
+        data-testid="input-url"
+        id="input-url"
+        onChange={[Function]}
+        placeholder="Type here"
+        required={true}
+        type="text"
+      />
+    </div>
+    <div
+      className="flex flex-col justify-center items-start mx-auto space-y-4"
+    >
+      <label
+        className="font-bold"
+        htmlFor="input-access-token"
+      >
+        Personal access token
+      </label>
+      <input
+        className="input input-secondary focus:outline-offset-0 input-bordered"
+        data-testid="input-access-token"
+        id="input-access-token"
+        onChange={[Function]}
+        placeholder="Type here"
+        required={true}
+        type="text"
+      />
+    </div>
+    <button
+      className="btn py-2 px-4 mt-6 btn-secondary"
+    >
+      Sign In
+    </button>
+  </form>
+</div>
+`;

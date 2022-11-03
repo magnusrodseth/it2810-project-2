@@ -1,0 +1,36 @@
+@tailwind base;
+
+@layer base {
+  ul {
+    @apply list-disc space-y-2;
+  }
+
+  strong {
+    @apply font-bold;
+  }
+
+  p {
+    @apply my-2;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .smooth {
+    @apply transform transition duration-500 ease-in-out;
+  }
+
+  .rise-on-hover {
+    @apply smooth;
+  }
+
+  .rise-on-hover:hover {
+    @apply -translate-y-1;
+  }
+
+  .custom-tooltip {
+    @apply dark:bg-neutral-content dark:text-neutral bg-base-200 border-2 border-base-300 p-4 rounded-lg;
+  }
+}

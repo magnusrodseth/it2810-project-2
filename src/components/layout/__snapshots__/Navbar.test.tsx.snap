@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar renders correctly 1`] = `
+<div
+  className="w-full z-10 flex items-center justify-between px-3 py-2 shadow-md fixed bg-neutral"
+>
+  <div
+    className="font-bold tracking-wide text-xs md:text-lg"
+  >
+    GitLab Visualizer
+  </div>
+  <div
+    className="flex justify-center items-center"
+  >
+    <div
+      className="flex justify-center items-center space-x-2 mx-4"
+    >
+      <input
+        checked={false}
+        className="toggle toggle-secondary"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        data-testid="toggle-label"
+      >
+        Dark
+      </span>
+    </div>
+    <button
+      className="btn py-2 px-4 mr-2 btn-primary"
+      onClick={[Function]}
+    >
+      Sign in
+    </button>
+  </div>
+</div>
+`;

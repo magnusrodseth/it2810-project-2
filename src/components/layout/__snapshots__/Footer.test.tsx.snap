@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  className="text-center mx-auto text-sm w-10/12 py-8 italic"
+>
+  Developed by Sebastian Sole, Julian Grande and Magnus Rødseth.
+</footer>
+`;

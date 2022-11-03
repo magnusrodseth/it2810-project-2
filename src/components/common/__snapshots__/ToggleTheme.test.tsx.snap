@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToggleTheme renders correctly 1`] = `
+<div
+  className="flex justify-center items-center space-x-2 mx-4"
+>
+  <input
+    checked={false}
+    className="toggle toggle-secondary"
+    onChange={[Function]}
+    type="checkbox"
+  />
+  <span
+    data-testid="toggle-label"
+  >
+    Dark
+  </span>
+</div>
+`;

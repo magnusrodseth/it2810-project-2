@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Feedback renders correctly 1`] = `
+<div
+  className="border-[1px] rounded-lg px-4 py-2 font-bold tracking-wide my-4 border-success"
+  data-testid="feedback"
+>
+  <span>
+    feedback.
+  </span>
+</div>
+`;
