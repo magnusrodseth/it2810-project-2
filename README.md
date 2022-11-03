@@ -6,6 +6,20 @@ This project is a visualizer of data from the GitLab REST API, specifically comm
 
 As a user, you log in using a project URL and a personal access token, and can see relevant data about your personal repository.
 
+## Screenshots 📷
+
+### Login
+
+![Screenshot of the login page](./static/login.png)
+
+### Commits
+
+![Screenshot of the commits page](./static/commits.png)
+
+### Issues
+
+![Screenshot of the issues page](./static/issues.png)
+
 ## Live demo
 
 Please use [this link](http://it2810-11.idi.ntnu.no/project2) to visit a live demo of the website.
